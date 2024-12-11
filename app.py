@@ -6,7 +6,7 @@ import streamlit as st
 car_data = pd.read_csv('vehicles_us.csv')
 
 # Botón para construir el histograma
-hist_button = st.button('Construir histograma')
+hist_button = st.checkbox('Mostrar histograma')
 
 if hist_button:  # Al hacer clic en el botón
     st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
@@ -16,7 +16,7 @@ if hist_button:  # Al hacer clic en el botón
     st.plotly_chart(fig, use_container_width=True)
 
 # Botón para construir el gráfico de dispersión
-scatter_button = st.button('Construir gráfico de dispersión')
+scatter_button = st.checkbox('Mostrar gráfico de dispersión')
 
 if scatter_button:  # Al hacer clic en el botón
     st.write('Creación de un gráfico de dispersión mostrando la relación entre el precio y el kilometraje')
