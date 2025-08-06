@@ -1,46 +1,51 @@
-Análisis Interactivo de Vehículos Usados
+# 🚗 Análisis Interactivo de Vehículos Usados
 
-Esta aplicación web interactiva permite a los usuarios explorar un conjunto de datos de vehículos usados a través de visualizaciones intuitivas. Fue desarrollada utilizando Streamlit y Plotly Express para ofrecer una experiencia dinámica y accesible.
+Esta aplicación web interactiva permite a los usuarios explorar un conjunto de datos de **vehículos usados** a través de visualizaciones dinámicas e intuitivas 📊. Fue desarrollada con **Streamlit** y **Plotly Express** para ofrecer una experiencia visual atractiva y accesible.
 
-Contexto
+---
 
-La aplicación está diseñada para analizar y visualizar datos del archivo vehicles_us.csv, que contiene información sobre anuncios de venta de vehículos usados en los Estados Unidos. Estos datos incluyen detalles como el kilometraje, el precio, y otras características relevantes.
+## 🧾 Contexto
 
-Funcionalidades
+La aplicación analiza y visualiza datos del archivo `vehicles_us.csv`, que contiene información sobre anuncios de venta de vehículos usados en los Estados Unidos 🇺🇸.  
+Incluye variables como:
 
-Visualización de Histogramas:
+- Kilometraje  
+- Precio  
+- Año del vehículo  
+- Tipo de transmisión  
+- Y más características relevantes
 
-Permite analizar la distribución del kilometraje de los vehículos.
-Ayuda a identificar patrones en los datos, como la concentración de vehículos con cierto rango de kilometraje.
+---
 
-Gráfico de Dispersión:
+## ✨ Funcionalidades
 
-Muestra la relación entre el kilometraje y el precio de los vehículos.
-Proporciona una vista rápida de cómo las dos variables están correlacionadas.
+### 📉 Visualización de Histogramas
+Analiza la distribución del **kilometraje** de los vehículos.  
+✅ Ideal para identificar rangos de uso comunes entre los autos disponibles.
 
-Interactividad:
+### 🔁 Gráfico de Dispersión
+Muestra la relación entre **kilometraje** y **precio**.  
+✅ Permite observar la correlación entre ambas variables de manera visual.
 
-Los usuarios pueden seleccionar las opciones de visualización mediante casillas de verificación.
-Los gráficos generados son interactivos, lo que permite explorar los datos de manera más detallada.
+### 🖱️ Interactividad
+Los usuarios pueden seleccionar qué visualización mostrar mediante **casillas de verificación**.  
+Los gráficos son **interactivos**, lo que facilita la exploración detallada de los datos.
 
-Tecnologías Utilizadas
+---
 
-Streamlit: Para la creación de la interfaz web interactiva.
-Plotly Express: Para la generación de visualizaciones interactivas y personalizadas.
-Pandas: Para la manipulación y el análisis del conjunto de datos.
+## 🧰 Tecnologías Utilizadas
 
-Uso
+- ⚙️ **Streamlit**: Para la creación de la interfaz web interactiva.  
+- 📈 **Plotly Express**: Para la generación de gráficos interactivos y personalizados.  
+- 🐼 **Pandas**: Para la manipulación y análisis del dataset.
 
-Asegúrate de tener las siguientes dependencias instaladas:
-streamlit
-plotly
-pandas
+---
 
-Ejecuta la aplicación desde la línea de comandos:
+## 🚀 Uso de la Aplicación
 
-streamlit run app.py
+### 📦 Requisitos
 
-Accede a la aplicación en tu navegador en la dirección que se muestra en la terminal.
-Interactúa con la interfaz seleccionando las casillas para generar las visualizaciones deseadas.
+Asegúrate de tener instaladas las siguientes dependencias:
 
-tambien se puede acceder a la aplicacion por medio del siguiente link https://proyecto-sprint-6-xqub.onrender.com/
+```bash
+pip install streamlit plotly pandas
